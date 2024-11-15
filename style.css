@@ -1,0 +1,87 @@
+
+div.reviews-stars button{
+    background: none;
+    border: none;
+    outline:none;
+    padding: 0;
+}
+
+div.reviews-stars button.active i{
+    color: #ffc000;
+}
+
+div.reviews-stars button i{
+    color: #d3d2d2;
+}
+
+div.reviews-stars button:hover{
+    cursor: pointer;
+}
+
+i.fas.fa-star {
+    width: 29px;
+    height: 29px;
+    size: 29px;
+}
+
+i.fa-star:before {
+    width: 29px;
+    height: 29px;
+    font-size: 29px;
+}
+
+body {
+    display: flex;
+    height:100%;
+    background: aliceblue;
+    margin: 130px auto;
+}
+
+div.reviews-stars {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 9px;
+    margin: auto;
+    height: 100%;
+    border: 3px solid teal;
+    padding: 30px;
+    border-radius: 8px;
+    background: lavender;
+    width: max-content;
+}
+
+span.rs-left {
+    font-size: 17px;
+    color: teal;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+div span.rs-right {
+    display: flex;
+    gap: 7px;
+    flex-direction: inherit;
+}
+
+div.reviews-stars button.buttonsend {
+    color: white;
+    background: teal;
+    border-radius: 6px;
+    width: max-content;
+    height: max-content;
+    padding: 7px 21px;
+    margin: auto;
+    cursor: pointer;
+    border: 3px solid lavender;
+}
+
+div.reviews-stars button.buttonsend:hover {
+    border-color: teal;
+    color: teal;
+    background: white;
+}
+
+div.reviews-stars button.buttonsend {
+    font-size: 13px;
+}
