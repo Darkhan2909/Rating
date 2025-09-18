@@ -45,12 +45,14 @@ div.reviews-stars {
     margin: auto;
     height: 100%;
     border: 3px solid teal;
-    padding: 30px;
+    padding: 36px;
     border-radius: 8px;
     background: lavender;
     width: max-content;
 }
-
+div.reviews-stars:hover {
+    box-shadow: 0 0 8px teal;
+}
 span.rs-left {
     font-size: 17px;
     color: teal;
@@ -77,9 +79,9 @@ div.reviews-stars button.buttonsend {
 }
 
 div.reviews-stars button.buttonsend:hover {
-    border-color: teal;
+    border-color: aquamarine;
     color: teal;
-    background: white;
+    background: aquamarine;
 }
 
 div.reviews-stars button.buttonsend {
